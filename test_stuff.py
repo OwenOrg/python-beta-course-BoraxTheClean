@@ -24,4 +24,4 @@ def test_rectangle():
   assert square.area() == 36
   assert square.perimeter() == 24
 
-  assert 'Rectangle' in str(main.Square__mro__)
+  assert 'Rectangle' in str(main.Square.__mro__)
