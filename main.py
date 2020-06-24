@@ -1,8 +1,8 @@
 def hello_world():
-  #TODO
+  return "HeLlO WORLd!!!11"
   
 def add(a,b):
-  #TODO
+  return a+b
 
 class Rectangle:
     def __init__(self,length,width):
@@ -18,4 +18,4 @@ class Rectangle:
 
 class Square(Rectangle):
     def __init__(self,length):
-        super().__init__() #Fill Me In
+        super().__init__(length,length) #Fill Me In
