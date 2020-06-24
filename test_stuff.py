@@ -19,9 +19,9 @@ def test_add_float():
     operand_two = random.random()
     assert main.add(operand_one,operand_two) == operand_one+operand_two
  
- def test_rectangle():
-   square = main.square(6)
-   assert square.area() == 36
-   assert square.perimeter() == 24
-   
-   assert 'Rectangle' in str(main.Square__mro__)
+def test_rectangle():
+  square = main.square(6)
+  assert square.area() == 36
+  assert square.perimeter() == 24
+
+  assert 'Rectangle' in str(main.Square__mro__)
