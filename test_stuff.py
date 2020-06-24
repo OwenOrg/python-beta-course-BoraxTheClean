@@ -20,7 +20,7 @@ def test_add_float():
     assert main.add(operand_one,operand_two) == operand_one+operand_two
  
 def test_rectangle():
-  square = main.square(6)
+  square = main.Square(6)
   assert square.area() == 36
   assert square.perimeter() == 24
 
